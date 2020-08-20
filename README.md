@@ -80,6 +80,6 @@ Code without a test is broken. Still, I still left some of my code left untested
 Run `python manage.py test` or `python manage.py test booking`
 
 # Extra Note
-This "system" has no meaning to fulfill the business rules of hotel booking system. The main idea is simple, create order and get the details, but I am overthinking too much of the details of full `business model` that lead to wasting so much time. The code can get much more cleaner, use proper OOP and avoid unnecessary things. Its been a while since I build something like this so its a good and fun thing to do.
+This "system" has no meaning to fulfill the business rules of hotel booking system. The main idea is simple, create order and get the details, but I am overthinking too much of the details of full `business model` that lead to wasting so much time. The code can get much more cleaner, use proper OOP and avoid unnecessary things. Its been a while since I build something like this so its a good and fun thing to do. Also, notice that Im not using the djangorestframework the correct way, Im still using the plain django views.
 ### EXTRA extra note
 The assignment question is confusing as well 
