@@ -30,6 +30,11 @@ def get_booking_details(request, booking_id):
 
 @csrf_exempt
 def create_booking(request):
+    """
+    This method will actually create the customer or room even if the booking is not valid
+    One of the way to fix this is to use some sort of lock, like using threading, or create customer and 
+    room after the booking data is validate
+    """
 
     if request.method == "POST":
 
